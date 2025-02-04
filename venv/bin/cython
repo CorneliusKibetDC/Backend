@@ -1,4 +1,4 @@
-#!/Users/mac/Development/code/phase4/backend/venv/bin/python
+#!/Users/mac/Development/code/phase4/backend/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
