@@ -1,0 +1,11 @@
+CREATE TABLE Notes (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL CHECK (LENGTH(content) <= 1000)
+);
+CREATE TABLE User (
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(80) NOT NULL,
+    username VARCHAR(25) UNIQUE NOT NULL,
+    password TEXT NOT NULL
+);
