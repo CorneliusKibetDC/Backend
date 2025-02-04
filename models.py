@@ -24,25 +24,7 @@ class Notes(db.Model):
         self.content = content
         db.session.commit()
 
-# class Comment(db.Model):
-#     id = db.Column(db.Integer, primary_key=True)
-#     content = db.Column(db.String(255), nullable=False)
-#     created_at = db.Column(db.DateTime, default=datetime.utcnow)
-#     story_id = db.Column(db.Integer, db.ForeignKey('story.id'), nullable=False)
-#     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
-#     def __repr__(self):
-#         return f"<Comment {self.content}>"
-#     def save(self):
-#         db.session.add(self)
-#         db.session.commit()
-#     def delete(self):
-#         db.session.delete(self)
-#         db.session.commit()
-
-#     def update(self, content):
-#         self.content = content
-#         db.session.commit()
 
 #user model
 """
