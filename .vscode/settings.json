@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "postgresql://backend_o39f_user:b8YD1GFSbSe3GNi53qnJOcLI52g9ukDB@dpg-cudn230gph6c73ff3o8g-a.oregon-postgres.render.com/backend_o39f",
+            "name": "story"
+        }
+    ]
+}
